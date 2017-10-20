@@ -1,2 +1,2 @@
 db = "test"
-table = "table"
+col = "table"
