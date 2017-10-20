@@ -1,3 +1,5 @@
+#!/usr/bin/env python
+
 import config, argparse, uuid, pymongo
 from google.cloud import bigquery
 
