@@ -6,4 +6,4 @@ Example:
 
 In order to execute the following query you need to create a dataset on this URL: https://bigquery.cloud.google.com/dataset/fh-bigquery:reddit_comments
 
-> python query.py 'SELECT * FROM [fh-bigquery:reddit_comments.2016_07] WHERE subreddit="The_Donald" AND author <> "[deleted]" LIMIT 10'
+> ./query.py 'SELECT * FROM [fh-bigquery:reddit_comments.2016_07] WHERE subreddit="The_Donald" AND author <> "[deleted]" LIMIT 10'
